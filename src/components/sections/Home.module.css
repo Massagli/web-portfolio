@@ -1,0 +1,47 @@
+.home{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+}
+
+.home h1,h2{
+    color: var(--secondary-color)
+}
+
+.home h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.home h2{
+    font-weight: 300;
+}
+
+.icon_container{
+    display:flex;
+    align-items: center;
+    gap: 30px
+}
+
+.icon_container hr{
+    width: 90px;
+    height: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.icon{
+    width: 50px;
+    fill: var(--secondary-color);
+}
+
+.icon:hover{
+    fill: var(--main-color);
+    cursor: pointer;
+}
