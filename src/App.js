@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Container from './components/layouts/Container';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import Home from './components/sections/Home';

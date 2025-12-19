@@ -1,7 +1,4 @@
-import { Link } from "react-router-dom"
-
 import styles from './Navbar.module.css';
-import Container from './Container';
 import logo from '../../img/code.png'
 
 function Navbar(){
