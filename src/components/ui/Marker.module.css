@@ -1,0 +1,25 @@
+.marker{
+    width: 500px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.marker p{
+    margin-left: 15px
+}
+
+.marker_color_green{
+    background-color: var(--status-green-back);
+    color: var(--status-green);
+    
+}
+
+.marker_color_orange{
+    background-color: var(--status-orange-back);
+    color: var(--status-orange);
+}
