@@ -8,7 +8,7 @@ function Navbar(){
                 <ul className={styles.lista}>
                     <li className={styles.item}>Home</li>
                     <li className={styles.item}>Sobre</li>
-                    <li className={styles.item}>Skills</li>
+                    <li className={styles.item}>Habilidades</li>
                     <li className={styles.item}>Portfólio</li>
                     <li className={styles.item}>Contato</li>
                 </ul>

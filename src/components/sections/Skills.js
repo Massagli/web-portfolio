@@ -20,7 +20,7 @@ function Skills(){
     return(
         <section className={styles.skills}>
             <div className={styles.title}>
-                <Status title="Skills"></Status>
+                <Status title="Habilidades"></Status>
                 <h1>Tecnologias e Habilidades</h1>
             </div>
             <div className={styles.techs_container}>
