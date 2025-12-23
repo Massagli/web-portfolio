@@ -1,5 +1,4 @@
 import styles from "./Home.module.css"
-import hand from "../../img/hand.gif"
 import arrow_down from "../../img/arrow-down.svg"
 
 function Home(){
