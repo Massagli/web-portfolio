@@ -13,7 +13,7 @@ function Navbar(){
                     <li className={styles.item}>Contato</li>
                 </ul>
             </div>
-        </nav>
+        </nav> 
         
     )
 }

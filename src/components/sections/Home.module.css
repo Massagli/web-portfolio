@@ -6,20 +6,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding: 60px;
-}
+} 
 
+.home img{
+    width: 64px;
+    height: 64px;
+}
+ 
 .home h1,h2{
     color: var(--secondary-color)
 }
 
 .home h1{
-    font-size: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 64px;
     font-weight: bold;
 }
 
 .home h2{
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -30,18 +38,52 @@
 }
 
 .icon_container hr{
-    width: 90px;
-    height: 5px;
+    width: 85px;
+    height: 3px;
     background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .icon{
-    width: 50px;
+    width: 24px;
     fill: var(--secondary-color);
+}
+
+.icon_2{
+    width: 24px;
+    stroke: var(--secondary-color); 
 }
 
 .icon:hover{
     fill: var(--main-color);
     cursor: pointer;
+}
+
+.icon_2:hover{
+    stroke: var(--main-color);
+    cursor: pointer;
+}
+
+.button{
+    width: 146px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    box-shadow: 1px 1px 15.8px var(--main-color);
+    font-weight: 300;
+}
+
+.button img{
+    width: 24px;
+}
+
+.button:hover{
+        box-shadow: 1px 1px 10px var(--main-color);
 }
