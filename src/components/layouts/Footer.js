@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 function Footer(){
     return(
-        <footer >
+        <footer>
             <div className={styles.footer_container}>
                 <span>Copyright © Adriel Massagli - 2025</span>
             </div>
@@ -10,4 +10,4 @@ function Footer(){
     )
 }
 
-export default Footer;
+export default Footer; 

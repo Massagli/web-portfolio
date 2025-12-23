@@ -1,0 +1,42 @@
+.contact{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    padding-right: 64px;
+    gap:100px;
+    justify-content: center;
+}
+
+.contact h1{
+    width: 1000px;
+    font-size: 64px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.contact p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--secondary-color);
+
+}
+
+.contact_container{
+    display: flex;
+    gap: 64px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    fill: var(--secondary-color)
+}
+
+.icon_2{
+    width: 24px;
+    height: 24px;
+    stroke: var(--secondary-color);
+}
