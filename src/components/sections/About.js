@@ -10,7 +10,7 @@ function About(){
                 <div className={styles.cicle}><img src={me} alt="my cartoon"/></div>
             </div>
             <div className={styles.text_container}>
-                <Status title="About"></Status>
+                <Status title="Sobre"></Status>
                 <h1 className={styles.title}>Olá! Meu nome é Adriel Massagli.</h1>
                 <p className={styles.text}>Sou desenvolvedor backend, com experiência em documentação e planejamento de produto, atuando na criação de documentações técnicas como PRDs, RFCs e diagramas UML, apoiando o desenvolvimento de soluções bem estruturadas.Além disso, possuo conhecimentos em tecnologias de frontend, o que me permite atuar em diferentes etapas do projeto.</p>
                 <Marker customClass="marker_color_green" title="Técnico Desenvolvimento de Sistemas"></Marker>
