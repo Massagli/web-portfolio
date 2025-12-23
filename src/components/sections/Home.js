@@ -19,7 +19,7 @@ function Home(){
             </div> 
             <button className={styles.button}>Explorar <img src={arrow_down} alt="arrow down"/></button>
         </section>
-    )
+    ) 
 }
 
 export default Home; 

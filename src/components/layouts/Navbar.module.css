@@ -40,10 +40,10 @@
     list-style: none;
     color: var(--secondary-color);
 }
-
+ 
 .item:hover{ 
     color: var(--main-color);
     cursor: pointer;
     font-weight: bold;
-    display: block;
+
 }

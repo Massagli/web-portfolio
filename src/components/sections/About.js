@@ -5,7 +5,7 @@ import Marker from '../ui/Marker'
 
 function About(){
     return(
-        <section className={styles.about}>
+        <section className={styles.about} id="about">
             <div className={styles.image_container}>
                 <div className={styles.cicle}><img src={me} alt="my cartoon"/></div>
             </div>

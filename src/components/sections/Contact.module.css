@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.contact a{
+    text-decoration: none;
+}
+
 .contact h1{
     width: 1000px;
     font-size: 64px;
@@ -16,12 +20,29 @@
     color: var(--secondary-color);
 }
 
-.contact p{
+.names{ 
     display: flex;
     align-items: center;
     gap: 10px;
     color: var(--secondary-color);
+    transform: scale(1);
+    transition: transform 0.1s;
+}
 
+
+ 
+.names svg{
+    transform: scale(1);
+    transition: transform 0.1s;
+}
+
+.names:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.names:hover svg{
+   transform: scale(1.05);
 }
 
 .contact_container{
