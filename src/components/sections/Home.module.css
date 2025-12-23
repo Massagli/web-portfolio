@@ -85,5 +85,6 @@
 }
 
 .button:hover{
-        box-shadow: 1px 1px 10px var(--main-color);
+    box-shadow: 1px 1px 10px var(--main-color);
+    cursor: pointer;
 }
