@@ -1,18 +1,23 @@
 .status{
-    background-color: var(--main-color-back);
-    width: 165px;
-    height: 35px;
-    display: flex;
+    background-color: #17162520;
+    border: solid 1px #2D2B3F;
+    min-width: 107px;
+    width: fit-content;
+    height: 40px;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     gap: 10px; 
     border-radius: 50px;
-    color: var(--main-color);
-    font-weight: bold;
-    font-size: 25px;
+    color: var(--secondary-color);
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.emoji{
-    font-size: 22px;
-    font-weight: bold;
+.point{
+    width: 5px;
+    height: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
 } 

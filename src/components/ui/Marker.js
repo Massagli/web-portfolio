@@ -8,4 +8,4 @@ function Marker(props){
     )
 }
 
-export default Marker
+export default Marker 

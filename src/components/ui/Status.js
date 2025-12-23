@@ -3,7 +3,7 @@ import styles from './Status.module.css'
 function Status(prop){
     return(
         <div className={styles.status}>
-            <span className={styles.emoji}>{prop.emoji}</span>
+            <div className={styles.point}></div>
             <p>{prop.title}</p>
         </div>
 
