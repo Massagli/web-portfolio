@@ -18,10 +18,10 @@ import {FigmaIcon} from '../icons/FigmaIcon'
 
 function Skills(){
     return(
-        <section className={styles.skills}>
+        <section id="skills" className={styles.skills}>
             <div className={styles.title}>
                 <Status title="Habilidades"></Status>
-                <h1>Tecnologias e Habilidades</h1>
+                <h1>Tecnologias e Habilidades</h1> 
             </div>
             <div className={styles.techs_container}>
                 <h2>Techs do dia a dia</h2>

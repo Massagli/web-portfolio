@@ -1,4 +1,5 @@
 import styles from "./Home.module.css"
+import {Link} from 'react-scroll'
 import arrow_down from "../../img/arrow-down.svg"
 
 import {GithubIcon} from '../icons/GithubIcon'
@@ -7,7 +8,7 @@ import {EmailIcon} from '../icons/EmailIcon'
 
 function Home(){
     return(
-        <section className={styles.home}>
+        <section id="home" className={styles.home}>
             <h1>Adriel Massagli </h1>
             <h2>FullStack Developer</h2>
             <div className={styles.icon_container}>
@@ -17,7 +18,7 @@ function Home(){
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adrielmassagli@gmail.com" target="_blank" rel="noopener noreferrer"><EmailIcon className={styles.icon_2}></EmailIcon></a>
                 <hr></hr>
             </div> 
-            <button className={styles.button}>Explorar <img src={arrow_down} alt="arrow down"/></button>
+            <Link to="about" smooth={true} duration={600}><button className={styles.button}>Explorar <img src={arrow_down} alt="arrow down"/></button></Link>
         </section>
     ) 
 }

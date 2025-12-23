@@ -6,7 +6,7 @@ import { PdfIcon } from '../icons/PdfIcon'
 
 function Contact(){
     return(
-        <section className={styles.contact}>
+        <section id="contact" className={styles.contact}>
             <h1>Pronto para o próximo desafio. Vamos conversar?</h1>
             <div className={styles.contact_container}>
                 <a href="https://www.linkedin.com/in/adrielmassagli/" target="_blank" rel="noopener noreferrer"><p className={styles.names}><LinkedinIcon className={styles.icon}></LinkedinIcon> Linkedin</p></a>

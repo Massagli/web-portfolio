@@ -4,7 +4,7 @@ import styles from "./Experience.module.css";
 
 function Experience() {
   return (
-    <section className={styles.experience}>
+    <section id="experiences" className={styles.experience}>
         <Status title="Experiências"></Status>
         <div className={styles.timeline}>
             {/* ITEM 1 */}
