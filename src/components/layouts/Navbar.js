@@ -1,11 +1,10 @@
 import styles from './Navbar.module.css';
-import logo from '../../img/code.png'
 
 function Navbar(){
     return(
         <nav className={styles.navbar}>
             <div className={`${styles.nav_container}` }>
-                <img src={logo} alt="logo" className={styles.logo}/> 
+                <h1>Adriel Massagli</h1>
                 <ul className={styles.lista}>
                     <li className={styles.item}>Home</li>
                     <li className={styles.item}>Sobre</li>

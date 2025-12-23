@@ -13,7 +13,6 @@ function App() {
         <About></About>
         <Skills></Skills>
         <Footer></Footer>
-
     </main>
     
   );
