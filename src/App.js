@@ -1,6 +1,5 @@
 import './App.css';
 import {BrowserRouter} from 'react-router-dom'
-import { HashLink as Link } from 'react-router-hash-link';
 
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
