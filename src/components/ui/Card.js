@@ -1,11 +1,11 @@
 import styles from './Card.module.css'
 
-function Card(props){
+function Card({icon: Icon}){
     return(
         <div className={styles.card}>
-            <svg viewBox="0 0 80 80" aria-hidden="true"><path d={props.logo}/></svg>
+            <Icon className={styles.icon}/>
         </div>
     )
 }
 
-export default Card;
+export default Card; 

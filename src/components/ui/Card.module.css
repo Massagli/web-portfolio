@@ -1,13 +1,22 @@
 .card{
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     border: solid 3px var(--main-color);
-    border-radius: 45px;
+    border-radius: 100px;
     display: grid;
     place-items: center;
 }
 
-.card svg{
-    width: 80px;
-    fill: #4981F2;
+.icon{
+    width: 60px;
+    height: 60px;
+    fill: var(--main-color);
+} 
+
+.card:hover{
+    border: solid 3px var(--secondary-color);
+}
+
+.card:hover .icon{
+    fill: var(--secondary-color);
 }
