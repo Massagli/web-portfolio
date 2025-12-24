@@ -23,16 +23,16 @@ function Skills(){
                 <Status title="Habilidades"></Status>
                 <h1>Tecnologias e Habilidades</h1> 
             </div>
-            <div className={styles.techs_container}>
+            <div className={styles.techs_container}> 
                 <h2>Techs do dia a dia</h2>
                 <div className={styles.techs}>
                     <Card icon={GoIcon}></Card>
                     <Card icon={PythonIcon}></Card>
                     <Card icon={ReactIcon}></Card>
-                    <Card icon={PostgreIcon}></Card>
+                    <Card icon={PostgreIcon}></Card> 
                     <Card icon={GitIcon}></Card>
                     <Card icon={GithubIcon}></Card>
-                    
+                     
                 </div>
                 <h2>Outras Skills</h2>
                 <div className={styles.techs}>

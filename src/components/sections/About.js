@@ -2,7 +2,7 @@ import styles from './About.module.css'
 import me from '../../img/me.png'
 import Status from '../ui/Status'
 import Marker from '../ui/Marker'
-
+  
 function About(){
     return(
         <section id="about" className={styles.about}>
@@ -16,7 +16,7 @@ function About(){
                 <Marker customClass="marker_color_green" title="Técnico Desenvolvimento de Sistemas"></Marker>
                 <Marker customClass="marker_color_orange" title="Graduando Engenharia de Software"></Marker>
             </div>
-        </section>
+        </section> 
     )
 }
  

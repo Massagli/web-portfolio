@@ -10,4 +10,4 @@ function Status(prop){
     )
 }
 
-export default Status;
+export default Status; 

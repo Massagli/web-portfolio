@@ -7,7 +7,7 @@ import {LinkedinIcon} from '../icons/LinkedinIcon'
 import {EmailIcon} from '../icons/EmailIcon'
 
 function Home(){
-    return(
+    return( 
         <section id="home" className={styles.home}>
             <h1>Adriel Massagli </h1>
             <h2>FullStack Developer</h2>

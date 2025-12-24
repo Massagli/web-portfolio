@@ -22,4 +22,20 @@
 .marker_color_orange{
     background-color: var(--status-orange-back);
     color: var(--status-orange); 
+} 
+
+@media (max-width: 1024px){
+    .marker{
+        width: 329px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 640px){
+    .marker{
+        width: 290px;
+        height: 30px;
+        font-size: 12px;
+    }
 }

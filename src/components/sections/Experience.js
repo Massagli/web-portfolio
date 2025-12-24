@@ -11,7 +11,7 @@ function Experience() {
             <div className={styles.item}>
                 <div className={styles.left}>
                     <span className={styles.dot} />
-
+ 
                     <div>
                     <h3 className={styles.company}>Sumup</h3>
                     <p className={styles.role}>Planning Intern</p>

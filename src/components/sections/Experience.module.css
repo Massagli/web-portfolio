@@ -32,7 +32,7 @@
   justify-content: space-between;
   gap: 80px;
 }
-
+ 
 .left {
   display: flex;
   gap: 16px;
@@ -47,7 +47,7 @@
   width: 12px;
   height: 12px;
   background: #ffffff;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-top: 6px;
 }
 
@@ -68,8 +68,6 @@
 }
 
 .right ul {
-  list-style: disc;
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -83,4 +81,34 @@
   height: 1px;
   background: #2a2f3a;
   margin-left: 32px;
+}
+
+@media (max-width: 640px){
+    .experience{
+      margin-top: 200px;
+      height: 100vh;
+      padding: 0px 40px 0px 40px;
+    }
+
+    .company{
+      font-size: 16px;
+    }
+
+    .role{
+      font-size: 13px;
+    }
+
+    .date{
+      font-size: 12px;
+    }
+
+    .dot{
+      width: 15px;
+      height: 15px;
+      margin-left: 2px;
+    }
+
+    .right ul {
+      font-size: 14px;
+    }
 }

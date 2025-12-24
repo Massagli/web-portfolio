@@ -20,4 +20,11 @@
     height: 5px;
     background-color: var(--secondary-color);
     border-radius: 5px;
-} 
+}  
+
+@media (max-width: 1024px){
+    .status{
+        height: 30px;
+        font-size: 14px;
+    }
+}

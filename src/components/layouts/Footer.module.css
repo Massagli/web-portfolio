@@ -1,7 +1,6 @@
  footer{
     width:100%;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding: 0px 64px 0px 64px;
  }
 
  .footer_container{
@@ -15,3 +14,10 @@
  .footer_container span{
     color: var(--secondary-color)
  }
+
+
+@media (max-width:640px){
+   footer{
+      padding: 0px 40px 0px 40px;
+   }
+}

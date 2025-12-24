@@ -15,7 +15,7 @@ function Contact(){
                 <p className={styles.names}><PdfIcon className={styles.icon_2}></PdfIcon> Curriculo</p>
             </div> 
             
-        </section>
+        </section> 
 
     )
 }

@@ -3,15 +3,15 @@
     height: 100vh;
     display: flex;
     align-items: center; 
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
+    padding: 0px 64px 0px 64px;
 }
 
 .image_container{
     width: 40%;
     display: grid;
     place-items: center;
-    margin-left: 50px;
 }
 
 .image_container img{
@@ -30,7 +30,6 @@
 .text_container{
     width: 60%;
     color: var(--secondary-color);
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -51,4 +50,47 @@
     display: flex;
     flex-direction: column;
     gap:15px;
+}
+
+@media (max-width: 1024px){
+    .cicle{
+        width: 315px; 
+        height: 315px;
+    }
+
+    .image_container img{
+        width: 334px;
+        height: 354px;
+    }
+
+    .title{
+        font-size: 30px;
+    } 
+
+    .text{
+        font-size: 16px;
+    } 
+}
+
+@media (max-width: 640px){
+    .about{
+        padding: 0px 40px 0px 40px;
+    }
+
+
+    .image_container{
+        display: none;
+    }
+
+    .text_container{
+        width: 100%;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+
+    .title{
+        font-size: 24px;
+    } 
 }
