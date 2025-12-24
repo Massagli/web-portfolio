@@ -28,3 +28,16 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 640px){
+    .status{
+        min-width: 90px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .point{
+        width: 4px;
+        height: 4px;
+    }
+}

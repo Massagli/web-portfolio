@@ -12,12 +12,17 @@
  } 
 
  .footer_container span{
-    color: var(--secondary-color)
- }
+    color: var(--secondary-color);
+    font-weight: 400;
+ } 
 
 
 @media (max-width:640px){
    footer{
       padding: 0px 40px 0px 40px;
    }
+
+   .footer_container span{
+      font-size: 14px;
+   } 
 }

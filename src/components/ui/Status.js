@@ -5,7 +5,7 @@ function Status(prop){
         <div className={styles.status}>
             <div className={styles.point}></div>
             <p>{prop.title}</p>
-        </div>
+        </div> 
 
     )
 }

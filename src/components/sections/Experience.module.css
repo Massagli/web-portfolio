@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px
+  gap: 30px;
 }
 
 .timeline {
@@ -40,7 +40,8 @@
 }
 
 .right{
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .dot {
@@ -85,9 +86,8 @@
 
 @media (max-width: 640px){
     .experience{
-      margin-top: 200px;
-      height: 100vh;
-      padding: 0px 40px 0px 40px;
+      height: auto;
+      padding: 200px 40px 200px 40px;
     }
 
     .company{
@@ -111,4 +111,9 @@
     .right ul {
       font-size: 14px;
     }
+
+    .item{
+      gap: 24px;
+    }
+
 }
