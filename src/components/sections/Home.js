@@ -19,6 +19,8 @@ function Home(){
                 <hr></hr>
             </div> 
             <Link to="about" smooth={true} duration={600}><button className={styles.button}>Explorar <img src={arrow_down} alt="arrow down"/></button></Link>
+
+            <div className={styles.light}></div>
         </section>
     ) 
 }
