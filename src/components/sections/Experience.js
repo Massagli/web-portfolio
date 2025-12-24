@@ -22,7 +22,7 @@ function Experience() {
                 <div className={styles.right}>
                     <ul>
                     <li>
-                        Creating application interfaces with Figma and modeling databases
+                       Creating application interfaces with Figma and modeling databases
                         in PostgreSQL.
                     </li>
                     <li>
@@ -42,31 +42,31 @@ function Experience() {
 
             {/* ITEM 2 */}
             <div className={styles.item}>
-            <div className={styles.left}>
-                <span className={styles.dot} />
+                <div className={styles.left}>
+                    <span className={styles.dot} />
 
-                <div>
-                <p className={styles.role}>Apprenticeship - Sales & Growth</p>
-                <p className={styles.date}>Jul 2024 - May 2025 · 11 mos</p>
+                    <div>
+                    <p className={styles.role}>Apprenticeship - Sales & Growth</p>
+                    <p className={styles.date}>Jul 2024 - May 2025 · 11 mos</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className={styles.right}>
-                <ul>
-                <li>
-                    Updating and monitoring KPIs to support data-driven
-                    decision-making.
-                </li>
-                <li>
-                    Creating, maintaining, and optimizing SQL queries for data
-                    extraction and analysis.
-                </li>
-                <li>
-                    Automating manual processes and operational routines using Python
-                    to improve efficiency.
-                </li>
-                </ul>
-            </div>
+                <div className={styles.right}>
+                    <ul>
+                        <li>
+                            Updating and monitoring KPIs to support data-driven
+                            decision-making.
+                        </li>
+                        <li>
+                            Creating, maintaining, and optimizing SQL queries for data
+                            extraction and analysis.
+                        </li>
+                        <li>
+                            Automating manual processes and operational routines using Python
+                            to improve efficiency.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
