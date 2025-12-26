@@ -52,7 +52,7 @@
     gap:15px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1300px){
     .cicle{
         width: 315px; 
         height: 315px;
@@ -70,6 +70,36 @@
     .text{
         font-size: 16px;
     } 
+}
+
+@media (max-width:1024px){
+    .cicle{
+        width: 285px; 
+        height: 285px;
+    }
+
+    .image_container img{
+        width: 314px;
+        height: 334px;
+    }
+
+    .title{
+        font-size: 28px;
+    } 
+
+    .text{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px){
+    .image_container{
+        display: none;
+    }
+
+    .text_container{
+        width: 100%;
+    }
 }
 
 @media (max-width: 640px){

@@ -97,4 +97,9 @@
     .navbar{
       padding: 0px 40px 0px 40px;
     }
+
+    .nav_container h1{
+      font-size: 18px;
+    }
 }
+ 
